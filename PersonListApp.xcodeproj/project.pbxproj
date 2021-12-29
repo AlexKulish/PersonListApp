@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5915C48E277B6D4100FFC2C3 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5915C48D277B6D4100FFC2C3 /* DataManager.swift */; };
+		5915C490277B7B1300FFC2C3 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5915C48F277B7B1300FFC2C3 /* NavigationViewController.swift */; };
+		5915C492277B7BA900FFC2C3 /* FullPersonInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5915C491277B7BA900FFC2C3 /* FullPersonInfoTableViewController.swift */; };
+		5915C494277B7BEE00FFC2C3 /* AboutPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5915C493277B7BEE00FFC2C3 /* AboutPersonViewController.swift */; };
+		5915C496277B7EAF00FFC2C3 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5915C495277B7EAF00FFC2C3 /* Person.swift */; };
 		5996AA10277B538700015158 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5996AA0F277B538700015158 /* AppDelegate.swift */; };
 		5996AA12277B538700015158 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5996AA11277B538700015158 /* SceneDelegate.swift */; };
 		5996AA17277B538700015158 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5996AA15277B538700015158 /* Main.storyboard */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5915C48D277B6D4100FFC2C3 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		5915C48F277B7B1300FFC2C3 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		5915C491277B7BA900FFC2C3 /* FullPersonInfoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullPersonInfoTableViewController.swift; sourceTree = "<group>"; };
+		5915C493277B7BEE00FFC2C3 /* AboutPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutPersonViewController.swift; sourceTree = "<group>"; };
+		5915C495277B7EAF00FFC2C3 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		5996AA0C277B538700015158 /* PersonListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5996AA0F277B538700015158 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5996AA11277B538700015158 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,7 +88,10 @@
 		5996AA24277B544100015158 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				5915C48F277B7B1300FFC2C3 /* NavigationViewController.swift */,
 				5996AA29277B618A00015158 /* PersonListViewController.swift */,
+				5915C493277B7BEE00FFC2C3 /* AboutPersonViewController.swift */,
+				5915C491277B7BA900FFC2C3 /* FullPersonInfoTableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -86,6 +99,7 @@
 		5996AA25277B545C00015158 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				5915C495277B7EAF00FFC2C3 /* Person.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -111,6 +125,7 @@
 		5996AA28277B550B00015158 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				5915C48D277B6D4100FFC2C3 /* DataManager.swift */,
 			);
 			name = Services;
 			path = Resources;
@@ -188,8 +203,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5996AA2A277B618A00015158 /* PersonListViewController.swift in Sources */,
+				5915C48E277B6D4100FFC2C3 /* DataManager.swift in Sources */,
 				5996AA10277B538700015158 /* AppDelegate.swift in Sources */,
+				5915C490277B7B1300FFC2C3 /* NavigationViewController.swift in Sources */,
 				5996AA12277B538700015158 /* SceneDelegate.swift in Sources */,
+				5915C494277B7BEE00FFC2C3 /* AboutPersonViewController.swift in Sources */,
+				5915C496277B7EAF00FFC2C3 /* Person.swift in Sources */,
+				5915C492277B7BA900FFC2C3 /* FullPersonInfoTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
